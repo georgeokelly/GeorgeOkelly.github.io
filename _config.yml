@@ -3,13 +3,14 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: Go-dan Blog
+subtitle: 'Live a good life meet slowly.'
+description: 'April is over, April is over.'
 keywords:
-author: John Doe
-language: en
+author: George Okelly
+language: en #zh-CN
 timezone: ''
+avatar: '/_images/avatar0.png'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -93,7 +94,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: butterfly #landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -101,3 +102,13 @@ deploy:
   type: 'git'
   repository: git@github.com:georgeokelly/georgeokelly.github.io.git
   branch: master
+
+
+# KaTex
+markdown_it_plus:
+  plugins:
+    - plugin:
+      name: '@neilsustc/markdown-it-katex'
+      enable: true
+      options:
+        strict: false
