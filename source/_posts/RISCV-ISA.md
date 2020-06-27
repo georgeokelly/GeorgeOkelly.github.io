@@ -355,5 +355,6 @@ MULHSU 对多字符号型乘法很有效。
 
 [The RISC-V Reader: An Open Architecture Atlas](http://riscvbook.com/)
 
-<!-- Last SVG -->
+
+
 ![](https://img.shields.io/badge/last--updated-2019.1.31-blue.svg)
