@@ -1,13 +1,13 @@
 ---
 title: 'RISC-V ISA笔记'
 tags: 
-  - '计算机硬件'
-  - 'Hardware'
-  - 'RISC-V'
+    - '计算机硬件'
+    - 'Hardware'
+    - 'RISC-V'
 categories: Computer Architecture
 keywords: RISC-V
 description: 本文主要作为RISC-V (ISA部分)的一个梳理。
-cover: https://github.com/georgeokelly/georgeokelly.github.io/blob/source/source/_images/RISCV.png
+cover: https://picture-1302512218.cos.ap-guangzhou.myqcloud.com/6-27/RISCV.png
 date: 2018-12-19 21:43:49
 katex: true
 ---
